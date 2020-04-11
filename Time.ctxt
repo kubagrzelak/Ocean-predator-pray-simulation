@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Time
+comment0.text=\n\ \ This\ class\ controls\ a\ day\ time\ in\ the\ simulation.\n\ \ Sets\ time\ to\ day\ or\ night\ and\ how\ many\ steps\ of\ the\ simulation\n\ \ they\ should\ last.\n\n\ @author\ Daniel\ Koch\ and\ Jakub\ Grzelak\n\ @version\ 2020.02.23\n
+comment1.params=timeOfDay
+comment1.target=Time(boolean)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Time\n\ \n\ @param\ timeOfDay\ Sets\ to\ true\ if\ it's\ daytime\ and\ false\ if\ it's\ nighttime.\n
+comment2.params=
+comment2.target=boolean\ getIsDay()
+comment2.text=\n\ \ @return\ isDay\ If\ it\ is\ a\ day\ (true)\ or\ night\ (false).\n
+comment3.params=
+comment3.target=void\ changeTime()
+comment3.text=\n\ \ Changes\ time\ of\ a\ day\ to\ a\ day\ or\ a\ night.\n
+comment4.params=
+comment4.target=void\ timeReset()
+comment4.text=\n\ \ Resets\ a\ time\ in\ the\ simulation.\n
+comment5.params=
+comment5.target=void\ timeCheck()
+comment5.text=\n\ \ Checks\ the\ time\ in\ the\ simulation.\n\ \ \n\ \ If\ a\ time\ of\ a\ day\ lasts\ more\ simulation\ steps\ than\ it\ is\ set\ to,\n\ \ then\ it\ changes\ the\ time\ (i.e.\ from\ a\ day\ to\ a\ night).\n
+numComments=6

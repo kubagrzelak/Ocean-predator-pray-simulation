@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Seaweed
+comment0.text=\n\ A\ simple\ model\ of\ a\ Seaweed.\n\ Seaweed\ grow\ (age)\ and\ breed.\n\n\ @author\ Daniel\ Koch\ and\ Jakub\ Grzelak\n\ @version\ 2020.02.23\ (2)\n
+comment1.params=randomAge\ field\ location
+comment1.target=Seaweed(boolean,\ Field,\ Location)
+comment1.text=\n\ Create\ a\ new\ Seaweed.\ A\ Seaweed\ may\ be\ created\ with\ age\n\ zero\ (a\ new\ born)\ or\ with\ a\ random\ age.\n\n\ Seaweed\ can\ be\ also\ infected\ by\ the\ disease.\n\n\ @param\ randomAge\ If\ true,\ the\ Seaweed\ will\ have\ a\ random\ age.\n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n
+comment2.params=newSeaweeds\ time\ weather
+comment2.target=void\ act(java.util.List,\ boolean,\ java.lang.String)
+comment2.text=\n\ This\ is\ what\ the\ Seaweed\ does\ most\ of\ the\ time\ -\ it\ gets\ older.\n\ Sometimes\ it\ will\ breed\ (only\ on\ a\ sunny\ weather)\ or\ die\ of\ old\ age.\n\ @param\ newSeaweeds\ A\ list\ to\ return\ newly\ born\ Seaweeds.\n\ @param\ time\:\ day\ or\ night.\n\ @param\ weather\ Current\ weather\ condition.\n
+comment3.params=
+comment3.target=void\ incrementAge()
+comment3.text=\n\ Increase\ the\ age.\n\ This\ cannot\ result\ in\ the\ Seaweed's\ death.\n
+comment4.params=newSeaweeds
+comment4.target=void\ giveBirth(java.util.List)
+comment4.text=\n\ Check\ whether\ or\ not\ this\ Seaweed\ is\ to\ give\ birth\ at\ this\ step.\n\ New\ births\ will\ be\ made\ into\ free\ adjacent\ locations.\n\ @param\ newSeaweeds\ A\ list\ to\ return\ newly\ born\ Seaweeds.\n
+comment5.params=
+comment5.target=int\ breed()
+comment5.text=\n\ Generate\ a\ number\ representing\ the\ number\ of\ births,\n\ if\ it\ can\ breed.\n\ @return\ The\ number\ of\ births\ (may\ be\ zero).\n
+comment6.params=
+comment6.target=boolean\ canBreed()
+comment6.text=\n\ A\ Seaweed\ can\ breed\ if\ it\ has\ reached\ the\ breeding\ age.\n\ @return\ true\ if\ the\ Seaweed\ can\ breed,\ false\ otherwise.\n
+numComments=7

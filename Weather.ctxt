@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Weather
+comment0.text=\n\ This\ class\ controls\ the\ weather\ conditions\ in\ the\ simulation.\n\ It\ sets\ the\ weather\ conditions\ and\ for\ how\ many\ steps\ of\ simulation\n\ they\ should\ last.\n\n\ @author\ Daniel\ Koch\ and\ Jakub\ Grzelak\n\ @version\ 2020.02.23\n
+comment1.params=
+comment1.target=Weather()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Weather.\n\n
+comment2.params=
+comment2.target=void\ setWeather()
+comment2.text=\n\ \ Randomly\ sets\ the\ weather\ conditions\ in\ the\ simulation.\n\ \ Chooses\ random\ Double(0\ to\ 1)\ adn\ compares\ to\ weather\ condition\ probability\n
+comment3.params=
+comment3.target=java.lang.String\ getCurrentWeather()
+comment3.text=\n\ \ @return\ currentWeather\ Current\ weather\ condition.\n
+comment4.params=
+comment4.target=void\ setWeatherPeriod()
+comment4.text=\n\ \ Sets\ for\ how\ many\ simulation\ steps\ a\ weather\ condition\ should\ last.\n
+comment5.params=
+comment5.target=void\ weatherCheck()
+comment5.text=\n\ \ Checks\ if\ a\ weather\ condition\ should\ change.\n\n\ \ If\ weather\ condition\ lasts\ more\ simulation\ steps\ than\ it\ should,\n\ \ then\ change\ a\ weather\ condition\ to\ a\ random\ new\ one\ and\ set\ its\ period.\n
+comment6.params=
+comment6.target=void\ weatherReset()
+comment6.text=\n\ \ Resets\ a\ weather\ condition\ and\ its\ period.\n
+numComments=7
