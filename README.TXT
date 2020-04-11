@@ -1,4 +1,4 @@
-Project: Ocean Predator Pray Simulation
+Project: Ocean Predator Prey Simulation
 Authors: Jakub Grzelak and Daniel Koch
 
 A predator-prey simulation involving sharks, orcas, salmons, sardines, scubadivers and seaweed in
